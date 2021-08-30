@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+
+    scroll-behavior: smooth;
+
+}
+body{
+
+    font-family: 'Roboto', sans-serif;
+}
+/*navbar start form here*/
+
+.navbar{
+
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+.navbar-nav .nav-item .nav-link{
+
+    color: #fff;
+    font-weight: 600;
+}
+.navbar-nav .nav-item .nav-link.active{
+
+    
+    background: red;
+    border-radius: 5px;
+}
+
+/*navbar end here*/
+
+/*banner section start form here*/
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+}
+#banner a img{
+
+    width: 50px;
+    margin-right: 7px;
+}
+#banner a{
+
+    text-decoration: none;
+    color: #fff;
+ 
+
+}
+.wave1-banner{
+
+    width: 100%;
+}
+
+/*banner section end here*/
+
+/*services start from here*/
+
+.title{
+    text-align: center;
+}
+.title::after{
+
+    content: '';
+    display: block;
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin: auto;
+    transform: translateY(20px);
+}
+.service-box img{
+
+    width: 100px;
+}
+.service-box h3{
+
+    padding: 20px 0 10px 0;
+}
+.services-btn{
+
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+/*services end here*/
+
+
+/*about start here*/
+#about{
+
+    background: #f8f9fa;
+}
+
+/*about end here*/
+
+
+/*testimonials start*/
+.clients img{
+
+    width: 80px;
+   
+}
+.clients{
+
+    border-left: 4px solid #5f1782;
+}
+.user-details{
+
+    display: inline-block;
+    
+}
+/*testimonials end*/
+
+
+#socail-media img{
+
+    width: 60px;
+    transition: .5s;
+}
+#socail-media img:hover{
+
+    transform: translateY(-10px);
+}
+/*footer start*/
+#footer{
+
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+
+}
+.footer-box .fas{
+
+    font-size: 25px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    padding-top: 7px;
+    text-align: center;
+    margin-right: 8px;
+}
+.footer-box button{
+
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    border: none;
+    padding: 8px 15px;
+    color: #fff;
+    margin-top: 15px;
+}
+.footer-box input{
+
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
